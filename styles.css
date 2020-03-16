@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-image: url(img/cvcv.png);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;      
+}
+
+.navbar-nav li a {
+    float: right;
+    color: #fff !important;
+    margin: 0;
+}
+
+.navbar-brand img {
+    width: 100px;
+    margin-left: 30px;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+}
+
+nav .fa-bars {
+    color: #fff !important;
+    font-size: 26px;    
+}
+
+/*-----------Welcome Text ---------------*/
+
+.welcome {
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+
+.welcome h1 {
+    color: #333;
+    padding-bottom: 10px;
+}
+
+.welcome h1::after {
+    content: '';
+    background: #555;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.welcome .home-btn {
+   padding: 10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: red
+}
+
+.welcome .btn {
+    box-shadow: none;
+}
+
+/*---------Who we are? ---------*/
+
+#about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.titles {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.titles::after {
+    content: '';
+    background: #555;
+    display: block;
+    height: 2px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+#about .titles::after {
+    content: '';
+    background: #555;
+    display: block;
+    height: 2px;
+    width: 200px;
+    margin: 20px auto 5px;
+}
+
+#about .col-md-6 {
+    padding: 20px;
+}
+
+#about h3 {
+    margin: 20px auto;
+}
+
+#about .embed-responsive-item {
+    margin-top: 80px;
+}
+
+/*-------- Videos ----------*/
+
+#videos {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #efefef;
+}
+
+#videos .col-md-4 {
+    padding: 20px 10px;
+}
+
+#videos h3 {
+    margin: 10px auto;
+}
+
+#videos .embed-responsive-item:hover {
+    transform: scale(1.5);
+    transition: transform .2s;
+}
+
+/*-------- Features ---------*/
+#founder {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/expatme.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+#founder .col-md-6 {
+    padding: 20px;
+}
+
+/*-------------Join us -------------*/
+
+
+.joinus {
+    padding: 50px 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+
+.joinus h3 {
+    color: #333;
+    padding-bottom: 20px;
+}
+
+#join .rows {
+    padding-bottom: 5px;
+}
+
+#join #submit {
+    width: 90%;
+}
+
+.labels {
+  display: inline-block;
+  text-align: left;
+  width: 30%;
+}
+
+.fields {
+  display: inline-block;  
+  width: 48%;
+}
+
+.input-fields {
+  width: 70%;
+}
+
+
+
+/*--------- Footer ------*/
+#footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #efefef;
+}
+
+#footer img {
+    width: 150px;
+}
+
+#footer .fa {
+    padding: 5px;
+}
+
+#footer h3 {
+    padding-bottom: 10px;
+}
+
+#footer p {
+    padding-top: 5px;
+}
